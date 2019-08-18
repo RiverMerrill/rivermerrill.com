@@ -15,7 +15,8 @@
     "@nuxtjs/vuetify": "0.5.5",
     "aos": "^3.0.0-beta.6",
     "nuxt": "^2.0.0",
-    "vue-animejs": "^2.1.1"
+    "vue-animejs": "^2.1.1",
+    "vue-scrollmagic": "^1.1.1"
   },
   "devDependencies": {
     "nodemon": "^1.18.9",
