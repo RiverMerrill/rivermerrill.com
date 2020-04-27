@@ -84,7 +84,7 @@
       </p>
       <h2 class="header">Programming Skills</h2>
       <p class="skills">
-        <span class="bold">Languages:</span> HTML, CSS, Javascript, C#
+        <span class="bold">Languages:</span> HTML, CSS, Javascript/Typescript, C#
       </p>
       <p class="skills">
         <span class="bold">Frameworks:</span> AngularJS, Angular 2+, Vue, .NET
