@@ -2,8 +2,8 @@
   <div class="body">
     <h1 class="name col-md-12">River Merrill</h1>
     <ul class="information row">
-      <li class="col-md-4">760 SW Vista Ave</li>
-      <li class="col-md-4">Portland, Oregon 97205</li>
+      <li class="col-md-4">208.407.2654</li>
+      <li class="col-md-4">Portland, Oregon</li>
       <li class="col-md-4">rivermerrill.me@gmail.com</li>
     </ul>
     <h2 class="col-md-12">Summary</h2>
