@@ -6,6 +6,9 @@
         <h1 class="display-4">River Merrill</h1>
         <nuxt-link to="/store">Store</nuxt-link>
       </div>
+      <div class="under-construction">
+        <h1>Under Construction.</h1>
+      </div>
     </div>
   </div>
 </template>
@@ -44,6 +47,10 @@ export default {
   background: url("/header.jpg");
   background-size: cover;
   border-bottom: 1px solid lightgrey;
+}
+.under-construction {
+  color: white;
+  text-align: center;
 }
 
 .line-animation {
