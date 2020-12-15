@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Oswald:wght@400;700&display=swap');
+body {
+  background-color: #00396E;
+  color: #5cdb95;
+}
+.name {
+  font-family: 'Oswald', sans-serif;
+  font-size: 25pt;
+  font-weight: bold;
+  letter-spacing: .3em;
+  margin-top: 0;
+}
+.content {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11pt;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 3%;
+  overflow-x: hidden;
+}
+hr {
+  border-color: lightgrey;
+}
+a {
+  color: #5cdb95;
+  text-decoration: none;
+  display: block;
+}
+a:hover,
+a:visited:hover,
+a:focus {
+  color: white;
+  text-decoration: none;
+}
+a:visited:hover {
+  color: white;
+  text-decoration: none;
+}
+.information {
+  padding-right: 2%;
+  border-bottom: 1px solid grey;
+  background-color: white;
+}
+.information li {
+  list-style-type: none;
+  text-align: center;
+}
+.header {
+  font-family: 'Oswald', sans-serif;
+  font-size: 15pt;
+  font-weight: bold;
+  letter-spacing: .1em;
+  margin-bottom: 1em;
+}
+.company {
+  font-weight: bold;
+  font-size: 13pt;
+  font-style: italic;
+}
+.job-title {
+  font-size: 11pt;
+  font-style: italic;
+  font-weight: bold;
+}
+.education-location {
+  font-weight: bold;
+  font-size: 13pt;
+}
+.education-completed {
+  font-style: italic;
+}
+.bold {
+  font-weight: bold;
+}
+
+.skills ul {
+  padding-left: 1.3em;
+}
+
+@media print {
+   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+        float: left;
+   }
+   .col-sm-12 {
+        width: 100%;
+   }
+   .col-sm-11 {
+        width: 91.66666667%;
+   }
+   .col-sm-10 {
+        width: 83.33333333%;
+   }
+   .col-sm-9 {
+        width: 75%;
+   }
+   .col-sm-8 {
+        width: 66.66666667%;
+   }
+   .col-sm-7 {
+        width: 58.33333333%;
+   }
+   .col-sm-6 {
+        width: 50%;
+   }
+   .col-sm-5 {
+        width: 41.66666667%;
+   }
+   .col-sm-4 {
+        width: 33.33333333%;
+   }
+   .col-sm-3 {
+        width: 25%;
+   }
+   .col-sm-2 {
+        width: 16.66666667%;
+   }
+   .col-sm-1 {
+        width: 8.33333333%;
+   }
+
+   a[href]:after {
+    content: none !important;
+   }
+}
